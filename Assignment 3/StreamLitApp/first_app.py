@@ -1,39 +1,20 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from PIL import Image
 
-add_selectbox = st.sidebar.radio(
-    "Select the type of SEARCH METHOD",
-    ("Similarity", "FAISS", "Spotify-Annoy")
+
+image = Image.open('search.jpg')
+st.sidebar.image(image,width=120)
+
+st.sidebar.subheader("SELECT SEARCH METHOD")
+add_selectbox = st.sidebar.radio("  ",
+    ("Cosine Similarity", "FAISS")
 )
-# st.title('My first app')
 
-# x = 4
-# st.write(x, 'squared is', x * x)
 
-# x = st.slider('x') # 👈 this is a widget
-# st.write(x, 'squared is', x * x)
-
-# # Add a selectbox to the sidebar:
-# add_selectbox = st.sidebar.selectbox(
-# 'How would you like to be contacted?',
-# ('Email', 'Home phone', 'Mobile phone')
-# )
-# # Add a slider to the sidebar:
-# add_slider = st.sidebar.slider(
-# 'Select a range of values',
-# 0.0, 100.0, (25.0, 75.0)
-# )
-
-# pics = {
-#     "1": "d2.jpg",
-#     "2": "d3.jpg",
-#     "3": "d4.jpg"
-# }
-# pic = st.selectbox("Picture choices", list(pics.keys()), 0)
-# st.image(pics[pic], use_column_width=True, caption=pics[pic])
-if add_selectbox == 'Similarity' :
- st.title("_Images using Similarity Search!_ ")
+if add_selectbox == 'Cosine Similarity' :
+ st.title("Similar Products using Cosine Similarity Search")
  st.write("-------------------------------------------------------------------------------------------------")
  def get_data():
      return pd.read_csv('image_csv.csv')
@@ -41,16 +22,16 @@ if add_selectbox == 'Similarity' :
  df = get_data()
  images = df['0'].unique()
  #images1 = df['second']
- st.subheader("Select an image from the dropdown menu :point_down:")
+ st.subheader("Select a Product :")
  pic = st.selectbox('Choices:', images)
  st.write("**You selected:**")
  st.image(pic,width=None)
 
 
- z = st.slider('How many images do you want to see?', 1, 10, 5)
+ z = st.slider('Select Number of Similar Product:', 1, 10, 5)
  st.write("-------------------------------------------------------------------------------------------------")
  st.subheader("Output:")
- st.write('**Images similar to the image selected by you:**')
+ st.write('Similar Products: ')
  for index, row in df.iterrows():
      if row['0']==pic:
          while n < z+1:
@@ -59,7 +40,7 @@ if add_selectbox == 'Similarity' :
              n+=1
 
 elif add_selectbox == 'FAISS':
- st.title("_Images using Facebook AI Similarity Search (Faiss)_ ")
+ st.title("Similar Products using Faiss - Facebook AI Similarity Search")
  st.write("-------------------------------------------------------------------------------------------------")
  def get_data():
      return pd.read_csv('df.csv')
@@ -67,16 +48,16 @@ elif add_selectbox == 'FAISS':
  df = get_data()
  images = df['0'].unique()
  #images1 = df['second']
- st.subheader("Select an image from the dropdown menu :point_down:")
+ st.subheader("Select a Product :")
  pic = st.selectbox('Choices:', images)
  st.write("**You selected:**")
  st.image(pic,width=None)
 
 
- z = st.slider('How many images do you want to see?', 1, 4, 2)
+ z = st.slider('Select Number of Similar Products:', 1, 9, 5)
  st.write("-------------------------------------------------------------------------------------------------")
  st.subheader("Output:")
- st.write('**Images similar to the image selected by you:**')
+ st.write('**Similar Products:**')
  for index, row in df.iterrows():
      if row['0']==pic:
          while n < z+1:
