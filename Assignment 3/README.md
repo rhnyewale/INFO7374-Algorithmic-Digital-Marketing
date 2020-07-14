@@ -6,10 +6,10 @@ https://www.kaggle.com/inversion/processing-bson-files <br />
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/Assignment%203/Cosine_Similarity/1.jpg)
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/Assignment%203/Cosine_Similarity/2.jpg)
 
-## FAISS - Facebook AI Similarity Search
+## FAISS - Facebook AI Similarity Search Method Dataflow
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/Assignment%203/Facebook_AI_Similarity_Search/Faiss_dataflow.jpg)
 
-## Spotify - Dataflow
+## Spotify Annoy Method - Dataflow
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/Assignment%203/Spotify/Spotify_dataflow.jpg)
 ## StreamLit App
 Deployed on Heroku - https://imagecl.herokuapp.com/
