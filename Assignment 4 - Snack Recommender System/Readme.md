@@ -1,0 +1,45 @@
+# Snack Recommendation System using Collaborative Filtering
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/Assignment%204%20-%20Snack%20Recommender%20System/Images/rec_intro.jpg)
+
+## Dataset
+<b>Folder Dataset/:</b></br>
+<b>FinalFoodData.csv</b> contains 425 food items with category and description(calories,sugar,fat,protien)</br>
+<b>InputFoodData.csv</b> contains 60k entries with 900+ users rating 425 food items </br>
+<b>Reference:</b> https://tools.myfooddata.com/nutrition-facts-database-spreadsheet.php</br>
+## Getting Started
+
+To setup on your local machine:
+
+1. Install Anaconda with Python >= 3.6. [Miniconda](https://conda.io/miniconda.html) is a quick way to get started.
+
+2. Clone the repository
+
+```
+git clone https://github.com/Microsoft/Recommenders
+```
+
+3. Run the generate conda file script to create a conda environment: (This is for a basic python environment, see [SETUP.md](SETUP.md) for PySpark and GPU environment setup)
+
+```
+cd Recommenders
+python tools/generate_conda_file.py
+conda env create -f reco_base.yaml  
+```
+
+4. Activate the conda environment and register it with Jupyter:
+
+```
+conda activate reco_base
+python -m ipykernel install --user --name reco_base --display-name "Python (reco)"
+```
+
+5. Start the Jupyter notebook server
+## Algorithm Reference
+
+| Algorithm | Environment | Type | Description |
+| --- | --- | --- | --- |
+| Neural Collaborative Filtering (NCF) | [Python CPU / Python GPU](examples/00_quick_start/ncf_movielens.ipynb) | Collaborative Filtering | Deep learning algorithm with enhanced performance for implicit feedback |
+| Restricted Boltzmann Machines (RBM) | [Python CPU / Python GPU](examples/00_quick_start/rbm_movielens.ipynb) | Collaborative Filtering | Neural network based algorithm for learning the underlying probability distribution for explicit or implicit feedback |
+
+## Neural Collaborative Filtering (NCF)
+
