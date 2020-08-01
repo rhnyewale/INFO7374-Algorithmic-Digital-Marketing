@@ -43,3 +43,8 @@ python -m ipykernel install --user --name reco_base --display-name "Python (reco
 
 ## Neural Collaborative Filtering (NCF)
 
+Neural Collaborative Filtering (NCF), which is an innovative algorithm based on deep neural networks to tackle the key problem in recommendation — collaborative filtering — on the basis of implicit feedback</br>
+### 1 Matrix factorization algorithm
+NCF is new neural matrix factorization model, which ensembles Generalized Matrix Factorization (GMF) and Multi-Layer Perceptron (MLP) to unify the strengths of linearity of MF and non-linearity of MLP for modelling the user–item latent structures. NCF can be demonstrated as a framework for GMF and MLP, which is illustrated as below:
+![Alt text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/Assignment%204%20-%20Snack%20Recommender%20System/Images/NCF.jpg)
+This figure shows how to utilize latent vectors of items and users, and then how to fuse outputs from GMF Layer (left) and MLP Layer (right). We will introduce this framework and show how to learn the model parameters in following sections.
