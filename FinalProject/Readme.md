@@ -1,7 +1,5 @@
 # Best Buy Sales Marketing
 ## INFO7374-Algorithmic Digital Marketing - Final Project
-Claat - https://codelabs-preview.appspot.com/?file_id=1Ewn3JD5UzfQQh1AWXfZ9d3jPKBuVexSPUzFezK-Og4s#15 <br/>
-React App - https://bestbuyap-24e00.web.app/ 
 
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/BEST%20BUY.png)
 <br/>
@@ -9,8 +7,18 @@ React App - https://bestbuyap-24e00.web.app/
 ## Purpose
 The global consumer electronics e-commerce market is expected to grow from $282.6 billion in 2019 to about $373.6 billion in 2020 as the market initially experienced a surge due to purchase of electronic products that support work from home. The market is expected to stabilize and reach $548.4 billion at a CAGR of 18% through 2023.
 Consumers are shifting from offline to online shopping, and this factor is the key driving factor of the consumer electronics e-commerce market. 
-The stakeholders for our Application are the Decision Makers at Best Buy 
+The stakeholders for our Application are the Decision Makers at Best Buy <br/>
 
+<b>Claat -</b> https://codelabs-preview.appspot.com/?file_id=1Ewn3JD5UzfQQh1AWXfZ9d3jPKBuVexSPUzFezK-Og4s#15 <br/>
+<b>React App -</b> https://bestbuyap-24e00.web.app/ <br/>
+
+<b>Note-</b> The React App may not seem to work.<br/>
+
+<b>Step1:</b> (Google Chrome) Click on Not Secure -> Site Settings<br/>
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/ReactAppStep1.jpg)
+
+<b>Step2:</b> <br/> Change Insecure Content from Block(default) -> Allow<br/>
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/ReactAppStep2.jpg)<br/>
 ## Objectives
 <ul>
 <li>Identify the proposed trend in electronic sales</li>
@@ -25,17 +33,16 @@ The stakeholders for our Application are the Decision Makers at Best Buy
 ## Architecture
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Architecture.jpg)
 
+## Data Preprocessing
+
+Data Cleaning and Preprocessing - Removing NaN, duplicate values, Date Conversion etc. [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/Data%20Preprocessing)<br/>
+ 
+Exploratory Data Analysis - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/EDA)<br/>
+
 ## Web Scrapping 
 We've used Beautiful Soup to Web Scrap the Product Details like Product, Type, Img, UnitPrice.<br/>
 This folder contains the Data generated and the code.<br/>
 [/Web Scrapping/](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/Web%20Scrapping)
-
-### React App
-Deployed using Firebase.<br/>
-Frontend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/React%20App/bestbuyfront) <br/><br/>
-
-We've used Flask to generate API as the backend and have deployed it on AWS EC2 instance.<br/>
-Backend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/React%20App/bestbuyback) <br/>
 
 ## RFM Analysis
 
@@ -65,19 +72,46 @@ Mail sent to the user:<br/>
 3. 
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/MailWithin20.jpg)
 
+## Customer Lifetime Value and Churn Rate Calculation
+
+Customer Lifetime Value is a monetary value that represents the amount of revenue or profit a customer will give the company over the period of the relationship.<br/>
+CLTV demonstrates the implications of acquiring long-term customers compared to short-term customers.<br/> 
+Customer lifetime value (CLTV) can help you to answers the most important questions about sales to every company:<br/>
+<ul>
+<li>Identify the most profitable customers</li>
+<li>Formulate how can a company offer the best products and make the most money</li>
+<li>Calculate how much budget is needed to spend to acquire customers</li>
+</ul>
+<b>Churn rate Calculation</b><br/>
+<ul>
+<li>Repeat Rate = Number of Customer who have ordered in last 3 months / Total Number of Customers </li>
+<li>Churn Rate = 1 - Repeat Rate </li>
+</ul>
+
+<b>Customer Lifetime Value Calculation</b><br/>
+<ul>
+<li>Average Order Value = Total Revenue / Total Number of Orders</li>
+<li>Purchase Frequency =  Total Number of Orders / Total Number of Customers</li>
+<li>CLTV = ((Average Order Value x Purchase Frequency)/Churn Rate) x Profit margin.</li>
+<li>Customer Value = Average Order Value * Purchase Frequency</li>
+</ul>
+
 ## Amazon SES
 To generate the promotional mails we've used Amazon SES.
 Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application.<br/>
 
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/AWS%20SMTP/step-1.png)
 
-## Folders
+## Data Retrieval from AWS S3 Bucket
 Data has already been uploaded on S3 bucket<br/>
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/S3Bucket.png)<br>
 To get the Data from S3 bucket run the below code<br/><br/>
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/S3code.jpg)<br/>
 
-Data Cleaning and Preprocessing - Removing NaN, duplicate values, Date Conversion etc. [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/Data%20Preprocessing)<br/>
- 
-Exploratory Data Analysis - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/EDA)<br/>
+### React App
 
+Deployed using Firebase.<br/>
+Frontend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/React%20App/bestbuyfront) <br/><br/>
+
+We've used Flask to generate API as the backend and have deployed it on AWS EC2 instance.<br/>
+Backend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/React%20App/bestbuyback) <br/>
