@@ -72,6 +72,30 @@ Mail sent to the user:<br/>
 3. 
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/MailWithin20.jpg)
 
+## Customer Lifetime Value and Churn Rate Calculation
+
+Customer Lifetime Value is a monetary value that represents the amount of revenue or profit a customer will give the company over the period of the relationship.<br/>
+CLTV demonstrates the implications of acquiring long-term customers compared to short-term customers.<br/> 
+Customer lifetime value (CLTV) can help you to answers the most important questions about sales to every company:<br/>
+<ul>
+<li>Identify the most profitable customers</li>
+<li>Formulate how can a company offer the best products and make the most money</li>
+<li>Calculate how much budget is needed to spend to acquire customers</li>
+</ul>
+<b>Churn rate Calculation</b><br/>
+<ul>
+<li>Repeat Rate = Number of Customer who have ordered in last 3 months / Total Number of Customers </li>
+<li>Churn Rate = 1 - Repeat Rate </li>
+</ul>
+
+<b>Customer Lifetime Value Calculation</b><br/>
+<ul>
+<li>Average Order Value = Total Revenue / Total Number of Orders</li>
+<li>Purchase Frequency =  Total Number of Orders / Total Number of Customers</li>
+<li>CLTV = ((Average Order Value x Purchase Frequency)/Churn Rate) x Profit margin.</li>
+<li>Customer Value = Average Order Value * Purchase Frequency</li>
+</ul>
+
 ## Amazon SES
 To generate the promotional mails we've used Amazon SES.
 Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application.<br/>
