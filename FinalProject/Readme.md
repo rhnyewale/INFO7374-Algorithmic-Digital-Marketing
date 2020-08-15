@@ -21,5 +21,30 @@ The stakeholders for our Application are the Decision Makers at Best Buy
 <li>Build dashboards around the KPIs to empower decision makers</li>
 </ul>
 
+
 ## Architecture
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Architecture.jpg)
+
+## Web Scrapping 
+We've used Beautiful Soup to Web Scrap the Product Details like Product, Type, Img, UnitPrice.<br/>
+This folder contains the Data generated and the code.<br/>
+[/Web Scrapping/](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/Web%20Scrapping)
+
+## Folders
+Data Cleaning and Preprocessing - Removing NaN, duplicate values, Date Conversion etc. [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/Data%20Preprocessing)<br/>
+ 
+Exploratory Data Analysis - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/EDA)<br/>
+
+### React App
+Deployed using Firebase.<br/>
+Frontend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/React%20App/bestbuyfront) <br/><br/>
+
+We've used Flask to generate API as the backend and have deployed it on AWS EC2 instance.<br/>
+Backend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/React%20App/bestbuyback) <br/>
+
+## Promotional Strategies
+After predicting the next purchase date of the customer our strategy should be to expedite the purchase by the customer.<br/>
+We have created different strategies on the basis of prediction and RFM scores<br/>
+
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Promotional%20Campaign.jpg)
+
