@@ -31,6 +31,10 @@ This folder contains the Data generated and the code.<br/>
 [/Web Scrapping/](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/Web%20Scrapping)
 
 ## Folders
+Data has already been uploaded on S3 bucket<br/>
+To get the Data from S3 bucket run the below code<br/><br/>
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/S3code.jpg)<br/>
+
 Data Cleaning and Preprocessing - Removing NaN, duplicate values, Date Conversion etc. [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/Data%20Preprocessing)<br/>
  
 Exploratory Data Analysis - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/EDA)<br/>
