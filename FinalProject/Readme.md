@@ -42,6 +42,8 @@ Frontend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digita
 We've used Flask to generate API as the backend and have deployed it on AWS EC2 instance.<br/>
 Backend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/tree/master/FinalProject/React%20App/bestbuyback) <br/>
 
+## RFM Analysis
+
 ## Promotional Strategies
 After predicting the next purchase date of the customer our strategy should be to expedite the purchase by the customer.<br/>
 We have created different strategies on the basis of prediction and RFM scores<br/>
