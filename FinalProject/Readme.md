@@ -44,6 +44,14 @@ Backend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital
 
 ## RFM Analysis
 
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/RFM%20Analysis.jpg)<br/>
+RFM stands for Recency, Frequency, and Monetary. It is the easiest form of customer database segmentation and is based on user activity data. RFM segmentation can be applied to activity-related data that has measurable value and repeatable. Therefore, it is a perfect strategy for eCommerce, because purchase history and website visits can be measured and tracked. Let’s look at each of the RFM components in more detail:<br/>
+
+1.<b>Recency:</b> Recency is the most important predictor of who is more likely to respond to an offer. Customers who have purchased recently from you are more likely to purchase again from you compared to those who did not purchase recently.<br/>
+2.<b>Frequency:</b> The second most important factor is how frequently these customers purchase from you. The higher the frequency, the higher is the chances of them responding to your offers.<br/>
+3.<b>Monetary:</b> The third factor is the amount of money that customers have spent on purchases. Customers, who have spent higher amounts, are more likely to purchase compared to those who have spent less.<br/>
+
+
 ## Promotional Strategies
 After predicting the next purchase date of the customer our strategy should be to expedite the purchase by the customer.<br/>
 We have created different strategies on the basis of prediction and RFM scores<br/>
