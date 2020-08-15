@@ -46,5 +46,20 @@ Backend - [click here](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital
 After predicting the next purchase date of the customer our strategy should be to expedite the purchase by the customer.<br/>
 We have created different strategies on the basis of prediction and RFM scores<br/>
 
-![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Promotional%20Campaign.jpg)
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Promotional%20Campaign.jpg)<br/>
+
+On the basis of next purchase prediction and RFM Analysis we will be sending 3 different Mails for different customers.<br/>
+1. Customer will purchase in more than 50 days
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/More50.jpg)<br/><br/>
+Mail<br/>
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Mail50.jpg)<br/><br/>
+
+2. Customer will purchase within 20-49 days
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Mail20to50.jpg)<br/><br/>
+
+3. Customer will purchase within 20days
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/MailWithin20.jpg)
+
+
+
 
