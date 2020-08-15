@@ -49,17 +49,21 @@ We have created different strategies on the basis of prediction and RFM scores<b
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Promotional%20Campaign.jpg)<br/>
 
 On the basis of next purchase prediction and RFM Analysis we will be sending 3 different Mails for different customers.<br/>
-1. Customer will purchase in more than 50 days
+1. 
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/More50.jpg)<br/><br/>
-Mail<br/>
+Mail sent to the user:<br/>
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Mail50.jpg)<br/><br/>
 
-2. Customer will purchase within 20-49 days
+2. 
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/Mail20to50.jpg)<br/><br/>
 
-3. Customer will purchase within 20days
+3. 
 ![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/MailWithin20.jpg)
 
+## Amazon SES
+To generate the promotional mails we've used Amazon SES.
+Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application.<br/>
 
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/AWS%20SMTP/step-1.png)
 
 
