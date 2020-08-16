@@ -96,6 +96,19 @@ Customer lifetime value (CLTV) can help you to answers the most important questi
 <li>Customer Value = Average Order Value * Purchase Frequency</li>
 </ul>
 
+If a customer crosses his predicted purchase date, his CLV will be checked.<br/>
+If the CLV is lower than the quantile of the churn rate then he wil be dropped from the promotion pool<br/>
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/CLVremovedpool.jpg)
+
+If his CLV is higher that the quantile of the churn rate then he will be awarded with a coupon eligible for a week.<br/>
+If he still doesnt purchase anything. He will be removed from the promotion pool.<br/>
+
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/CLVPromo.jpg)
+
+Following Promotional Mail will be sent to the customer.<br/>
+![Alt Text](https://github.com/rhnyewale/INFO7374-Algorithmic-Digital-Marketing/blob/master/FinalProject/Images/PromoMail.jpg)
+
+
 ## Amazon SES
 To generate the promotional mails we've used Amazon SES.
 Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application.<br/>
